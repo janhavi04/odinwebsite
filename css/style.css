@@ -1,18 +1,136 @@
 body{
     font-family:sans-serif ;
+    margin: 0;
+}
+.content{
+    display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+/*Header*/
+
+.left-links{
+    display: flex;
+    background-color: #1F2937;
+    color:#f9faf8 ;
+   
+    align-items: center;
+    
+    
+}
+.logo img{
+    
+ 
+    margin-right: auto;
+
+}
+
+.links{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
 }
 h1{
     justify-content:left;
     position: relative;
-    
-    margin: 0 100px;
+    font-size: 48px;
+    font-weight: bolder;
+   
 }
-.intro{
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.avengers{
+    
+    width: 500px ;
+    padding: 60px;
+}
+
+.para{
     display: flex;
-    flex: 1;
-    flex-flow: column wrap;
-}
+    align-items:center;
     
+}
+
+
+.top-container{
+    display: flex;
+    background-color: #1F2937;
+    color:#f9faf8 ;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px 100px 100px;
+}
+.first-middle-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.images{
+    float: left;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.images img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid #3498db ;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+
+}
+
+.second-middle-container{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style:  italic;
+    font-weight: lighter;
+    padding: 50px;
+
+
+}
+h3{
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 47px;
+    margin-bottom: 0;
+}
+
+.bottom-container{
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: none;
+}
+.call{
+    flex: 1;
+    
+}
+.text{
+    text-align: left;
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
  .btn {
         background: #3498db;
         background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -28,7 +146,9 @@ h1{
         font-size: 20px;
         padding: 10px 20px 10px 20px;
         text-decoration: none;
-      }
+     
+
+    }
       
       .btn:hover {
         background: #3cb0fd;
@@ -39,7 +159,11 @@ h1{
         background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
         text-decoration: none;
       }
-.avengers{
-    
-    width: 500px ;
-}
+
+      .footer {
+        background-color: #1F2937;
+        color: #fff;
+        font-family: 'Roboto', arial;
+        text-align: center;
+        margin-bottom:0;
+    }
